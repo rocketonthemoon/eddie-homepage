@@ -26,6 +26,11 @@ body {
 .button {
   padding: 10px 30px;
   border-radius: 12px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f2f2f2;
 }
 
 .primary {
@@ -64,9 +69,101 @@ header .logo {
 
 header nav {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
+}
+
+/* Home Component */
+
+.Home {
+  margin: 100px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+article {
+  width: 100%;
+}
+
+article:nth-of-type(1) {
+  width: 550px;
+  margin: 20px 20%;
+}
+
+article:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+article:nth-of-type(3) {
+  width: 370px;
+  margin: 20px 20%;
+}
+
+article img {
+  border-radius: 18px;
+  width: 100%;
+}
+
+article .un-happy {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2d9cdb;
+}
+
+article h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 10px 0;
+}
+
+article p {
+  color: #4F4F4F;
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+article .Contact {
+  margin: 40px 0;
+}
+
+article .Contact p {
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+}
+
+article .Contact .input-field {
+  position: relative;
+}
+
+article .Contact .input-field #email {
+  display: block;
+  width: 100%;
+  padding: 15px 30% 15px 10px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #BDBDBD;
+  outline: none;
+}
+
+article .Contact .input-field #submit-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
 }
