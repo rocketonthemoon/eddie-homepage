@@ -6,10 +6,10 @@ function Header() {
       </a>
       <nav>
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li>
           <a href="#">Our Works</a>
@@ -18,7 +18,7 @@ function Header() {
           <a href="#">Clients</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </nav>
     </header>
