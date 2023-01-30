@@ -15,7 +15,7 @@ function Header() {
           <a href="#works">Our Works</a>
         </li>
         <li>
-          <a href="#">Clients</a>
+          <a href="#clients">Clients</a>
         </li>
         <li>
           <a href="#contact">Contact</a>

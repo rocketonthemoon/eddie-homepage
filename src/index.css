@@ -416,3 +416,59 @@ header nav {
 }
 
 /* Clients component */
+
+.Clients {
+  margin: 150px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Clients article {
+  width: 100%; 
+}
+
+.Clients article h2 {
+  width: 937px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 50px 10%;
+}
+
+.Clients article .about {
+  margin: 30px 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.Clients article .about .photo {
+  width: 80px;
+  height: 80px;
+}
+
+.Clients article .about .photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.Clients article .about .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Clients article .about .desc .name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.Clients article .about .desc .company {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #828282;
+}
