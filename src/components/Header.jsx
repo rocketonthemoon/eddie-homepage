@@ -18,7 +18,7 @@ function Header() {
           <a href="#clients">Clients</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#foot-nav">Contact</a>
         </li>
       </nav>
     </header>

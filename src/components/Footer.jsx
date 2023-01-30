@@ -3,7 +3,7 @@ import Contact from "../shared/Contact";
 function Footer() {
   return (
     <footer>
-      <div className="foot-nav">
+      <div className="foot-nav" id="foot-nav">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -17,7 +17,7 @@ function Footer() {
           <a href="#clients">Clients</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#foot-nav">Contact</a>
         </li>
       </div>
       <div className="foot-social">
