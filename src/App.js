@@ -4,16 +4,22 @@ import Services from "./components/Services";
 import Works from "./components/Works";
 import Teams from "./components/Teams";
 import Clients from "./components/Clients";
+import Footer from "./components/Footer";
+import Credits from "./components/Credits";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Services />
-      <Works />
-      <Teams />
-      <Clients />
+      <div className="content">
+        <Header />
+        <Home />
+        <Services />
+        <Works />
+        <Teams />
+        <Clients />
+      </div>
+      <Footer />
+      <Credits />
     </div>
   );
 }

@@ -17,8 +17,6 @@ font-family: 'Poppins', sans-serif;
 }
 
 body {
-  max-width: 1440px;
-  margin: 0 auto;
   background-color: #fff;
   color: #333;
 }
@@ -50,6 +48,11 @@ a {
 li {
   list-style: none;
   white-space: nowrap;
+}
+
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* header component */
@@ -136,7 +139,13 @@ header nav {
   margin: 40px 0;
 }
 
-.Home article .Contact p {
+/* Contact component - shared */
+
+.Contact {
+  width: 370px;
+}
+
+.Contact p {
   margin: 5px 0;
   font-weight: 500;
   font-size: 14px;
@@ -144,11 +153,11 @@ header nav {
   color: #828282;
 }
 
-.Home article .Contact .input-field {
+.Contact .input-field {
   position: relative;
 }
 
-.Home article .Contact .input-field #email {
+.Contact .input-field #email {
   display: block;
   width: 100%;
   padding: 15px 30% 15px 10px;
@@ -162,7 +171,7 @@ header nav {
   outline: none;
 }
 
-.Home article .Contact .input-field #submit-btn {
+.Contact .input-field #submit-btn {
   position: absolute;
   top: 0;
   right: 0;
@@ -471,4 +480,46 @@ header nav {
   font-size: 18px;
   line-height: 27px;
   color: #828282;
+}
+
+/* Footer component */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 50px;
+  background-color: #100E1D;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding: 40px 0;
+}
+
+footer .foot-nav {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #FFFFFF;
+}
+
+footer .foot-social .logo {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+  color: #F2F2F2;
+}
+
+footer .foot-social .social a {
+  color: #f2f2f2;
+  font-size: 24px;
+}
+
+footer .foot-social .social {
+  display: flex;
+  gap: 15px;
+}
+
+footer .Contact p {
+  color: #f2f2f2;
 }

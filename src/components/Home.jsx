@@ -1,4 +1,5 @@
 import heroImage from "../assets/heroImage.jpg";
+import Contact from "../shared/Contact";
 
 function Home() {
   return (
@@ -17,18 +18,7 @@ function Home() {
           outperform your toughest competition and help you achieve your
           strategic goals in short period of time.
         </p>
-        <div className="Contact" id="contact">
-          <p>Want us to contact you?</p>
-          <div className="input-field">
-            <input type="email" placeholder="Email" id="email" />
-            <input
-              type="submit"
-              value="Join"
-              className="button primary"
-              id="submit-btn"
-            />
-          </div>
-        </div>
+        <Contact />
       </article>
     </main>
   );
