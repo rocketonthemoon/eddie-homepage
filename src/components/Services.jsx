@@ -25,7 +25,7 @@ function Services() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
             metus ac nulla consequat aliquet id quis turpis.
           </p>
-          <div className="button primary">Get started</div>
+          <div className="button secondary">Get started</div>
         </div>
         <div className="card">
           <div className="icon">

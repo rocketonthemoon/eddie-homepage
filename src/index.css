@@ -226,12 +226,26 @@ header nav {
   color: #828282;
 }
 
+.Services article:nth-of-type(2) .card:nth-of-type(2) .button {
+  color: #828282;
+}
+
 .Services article:nth-of-type(2) .card:nth-of-type(3) .button {
   color: #828282;
 }
 
 .Services article:nth-of-type(2) .card .button {
   width: max-content;
+  transition: all 0.3s ease-in-out;
+}
+
+.Services article:nth-of-type(2) .card:hover {
+  cursor: pointer;
+}
+
+.Services article:nth-of-type(2) .card:hover > .button {
+  background-color: #2d9cdb;
+  color: #fff;
 }
 
 .Services article:nth-of-type(2) .card .icon {
@@ -263,3 +277,5 @@ header nav {
   line-height: 24px;
   margin: 0px 0px 20px 0px;
 }
+
+/* Works component */
