@@ -47,7 +47,7 @@ function Works() {
           </div>
         </div>
         <a href="#works">
-          see more <span class="material-icons">trending_flat</span>
+          see more <span className="material-icons">trending_flat</span>
         </a>
       </article>
     </main>

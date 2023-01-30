@@ -303,7 +303,7 @@ header nav {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  height: 1500px;
+  height: 1700px;
 }
 
 .Works article:nth-of-type(2) .card .icon {
@@ -360,3 +360,59 @@ header nav {
 .Works article:nth-of-type(2) a span {
   font-size: 18px;
 }
+
+/* Teams component */
+
+.Teams {
+  margin: 100px 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Teams article {
+  width: 100%;
+}
+
+.Teams article h2 {
+  width: 280px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 10px 20%;
+}
+
+.Teams article p {
+  width: 280px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #EB5757;
+  margin: 0px 20%;
+}
+
+.Teams article p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4F4F4F;
+}
+
+.Teams article:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.Teams article:nth-of-type(2) .card img {
+  border-radius: 24px;
+}
+
+.Teams article:nth-of-type(2) .card:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+/* Clients component */
