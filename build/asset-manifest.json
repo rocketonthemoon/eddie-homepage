@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca72add1.css",
+    "main.js": "/static/js/main.bfe1db67.js",
+    "static/media/heroImage.jpg": "/static/media/heroImage.0131c65cf725a6bd1fe1.jpg",
+    "static/media/onboard.png": "/static/media/onboard.3127395c644187e4ac61.png",
+    "static/media/booking.png": "/static/media/booking.5fabb303e148404da65c.png",
+    "static/media/smarthome.jpg": "/static/media/smarthome.deca3c42a33ee416ff13.jpg",
+    "static/media/juice-product.png": "/static/media/juice-product.7dd02c6931855a34612b.png",
+    "static/media/person3.png": "/static/media/person3.e332a62f0c9077144bcb.png",
+    "static/media/person1.png": "/static/media/person1.6336d958523d7dafde6d.png",
+    "static/media/person2.png": "/static/media/person2.89a1b6c97c35b39be5f8.png",
+    "static/media/person4.png": "/static/media/person4.ed00c31f4dd34829f204.png",
+    "index.html": "/index.html",
+    "main.ca72add1.css.map": "/static/css/main.ca72add1.css.map",
+    "main.bfe1db67.js.map": "/static/js/main.bfe1db67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca72add1.css",
+    "static/js/main.bfe1db67.js"
+  ]
+}

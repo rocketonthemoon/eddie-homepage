@@ -26,13 +26,13 @@ function Footer() {
         </div>
         <div className="social">
           <a href="#">
-            <i class="fa-brands fa-square-instagram"></i>
+            <i className="fa-brands fa-square-instagram"></i>
           </a>
           <a href="#">
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="#">
-            <i class="fa-brands fa-square-twitter"></i>
+            <i className="fa-brands fa-square-twitter"></i>
           </a>
         </div>
       </div>

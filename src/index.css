@@ -53,6 +53,7 @@ li {
 .content {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0px 20px;
 }
 
 /* header component */
@@ -543,3 +544,57 @@ footer .Contact p {
   font-weight: 700;
   text-decoration: underline;
 }
+
+/* Hamburger component */
+
+.Hamburger {
+  display: none;
+}
+
+/* responsive design */
+
+@media (max-width: 759px) {
+
+  /* Hamburger - active */
+
+  .Hamburger {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .Hamburger.active span:nth-of-type(2) {
+    display: inline;
+  }
+
+  header nav.active {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: #fff;
+    z-index: 5;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.5);
+    padding: 20px;
+  }
+
+  header nav.active li {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Hamburger - Inactive */
+
+  header nav li {
+    display: none;
+  }
+
+  .Hamburger span:nth-of-type(2) {
+    display: none;
+  }
+
+}
+
