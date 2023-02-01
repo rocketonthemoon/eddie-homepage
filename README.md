@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://edie-homepages.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://edie-homepages.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -37,11 +37,11 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Screenshot 2023-01-30 at 8 13 51 PM](https://user-images.githubusercontent.com/90383172/216117050-d1a04694-aa46-445c-ba05-aa7b567efaae.jpg)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+- Where can I see your demo? https://edie-homepages.netlify.app/
 - What was your experience? i've been messing around with different web dev technology for the past year
 - What have you learned/improved? i've been improving my understanding about diffeent css concepts like flexbox and grid
 - Your wisdom? To Dare Is To Do
