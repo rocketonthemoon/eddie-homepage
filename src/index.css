@@ -144,6 +144,7 @@ header nav {
 
 .Contact {
   width: 370px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Contact p {
@@ -313,7 +314,7 @@ header nav {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  height: 1700px;
+  min-height: 1700px;
 }
 
 .Works article:nth-of-type(2) .card .icon {
@@ -512,7 +513,7 @@ footer .foot-social .logo {
 }
 
 footer .foot-social .social a {
-  color: #f2f2f2;
+  color: #fff;
   font-size: 24px;
 }
 
@@ -555,6 +556,14 @@ footer .Contact p {
 
 @media (max-width: 759px) {
 
+  /* Button */
+
+  .button {
+    padding: 10px 25px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
   /* Hamburger - active */
 
   .Hamburger {
@@ -594,6 +603,206 @@ footer .Contact p {
 
   .Hamburger span:nth-of-type(2) {
     display: none;
+  }
+
+  /* Header component */
+
+  header .logo {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  header nav {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* Home component */
+
+  .Home {
+    margin: 50px 0;
+  }
+
+  .Home article:nth-of-type(1) {
+    width: 272px;
+    margin: 20px 10%;
+  }
+
+  .Home article:nth-of-type(3) {
+    width: 275px;
+    margin: 20px 10%;
+  }
+  
+  .Home article .un-happy {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  
+  .Home article h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .Home article p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  /* Contact component - shared */
+
+  .Contact {
+    width: 291px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .Contact p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .Contact .input-field #email {
+    padding: 15px 30% 15px 10px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  /* Services component */
+
+  .Services {
+    margin: 50px 0;
+  }
+
+  .Services article h2 {
+    width: 259px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 20px 10%;
+  }
+
+  .Services article:nth-of-type(2) {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px;
+  }
+
+  .Services article:nth-of-type(2) .card h3 {
+    margin: 20px 0;
+  }
+
+  /* Works component */
+
+  .Works article h2 {
+    width: 267px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 20px 10%;
+  }
+
+  .Works article:nth-of-type(2) {
+    gap: 20px;
+  }
+
+  .Works article:nth-of-type(2) .card .icon {
+    width: 350px;
+    height: 350px;
+  }
+
+  .Works article:nth-of-type(2) .card .desc .category {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+
+  .Works article:nth-of-type(2) .card .desc .name {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .Works article:nth-of-type(2) a {
+    justify-content: flex-start;
+    margin: 10px 10%;
+    font-size: 18px;
+    line-height: 27px;
+    gap: 10px;
+  }
+
+  /* Teams component */
+
+  .Teams {
+    margin: 50px 0;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .Teams article h2 {
+    margin: 10px 10%;
+  }
+
+  .Teams article p {
+    margin: 0px 10%;
+  }
+
+  .Teams article:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .Teams article:nth-of-type(2) .card img {
+    border-radius: 24px;
+    width: 100%;
+  }
+
+  .Teams article:nth-of-type(2) .card:nth-of-type(1) {
+    height: 180px;
+    width: 180px;
+  }
+
+  .Teams article:nth-of-type(2) .card:nth-of-type(2) {
+    height: 145px;
+    width: 145px;
+  }
+
+  .Teams article:nth-of-type(2) .card:nth-of-type(3) {
+    height: 167px;
+    width: 167px;
+  }
+
+  /* Clients component */
+
+  .Clients {
+    margin: 100px 0;
+  }
+
+  .Clients article h2 {
+    width: 351px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 10%;
+  }
+
+  .Clients article .about {
+    margin: 0px 10%;
+  }
+
+  /* Footer component */
+
+  footer {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+  }
+
+  footer .Contact p {
+    color: #828282;
+  }
+
+  /* Credits component */
+
+  .Credits {
+    padding-top: 100px;  
   }
 
 }
